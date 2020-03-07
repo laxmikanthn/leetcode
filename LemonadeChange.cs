@@ -62,3 +62,25 @@ namespace LeetCodeChalleng
         }
     }
 }
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+using System;
+
+namespace LeetCodeChalleng
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            int[] bills = { 5, 5, 10, 10, 20 };
+            LemonadeChange lemon = new LemonadeChange();
+            bool value = lemon.LemonadeChangeMEthod(bills);
+            Console.WriteLine($"{value}");
+            Console.ReadLine();
+
+        }
+    }
+}
+
